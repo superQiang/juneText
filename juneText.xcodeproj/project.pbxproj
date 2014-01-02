@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1859BB1C179E7493000E9BE9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859BB1B179E743B000E9BE9 /* MBProgressHUD.m */; };
+		189803831810E946006ACEF3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189803821810E946006ACEF3 /* FirstViewController.m */; };
 		18ABFAEC178BEF880006A10D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABFAEB178BEF880006A10D /* UIKit.framework */; };
 		18ABFAEE178BEF880006A10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABFAED178BEF880006A10D /* Foundation.framework */; };
 		18ABFAF0178BEF880006A10D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABFAEF178BEF880006A10D /* CoreGraphics.framework */; };
@@ -16,9 +18,19 @@
 		18ABFAFE178BEF880006A10D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ABFAFD178BEF880006A10D /* Default.png */; };
 		18ABFB00178BEF880006A10D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ABFAFF178BEF880006A10D /* Default@2x.png */; };
 		18ABFB02178BEF880006A10D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ABFB01178BEF880006A10D /* Default-568h@2x.png */; };
+		18ABFB0A178BEFB60006A10D /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABFB09178BEFB60006A10D /* mainViewController.m */; };
+		18B72300178E9E5700214CF4 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B722FF178E9E5700214CF4 /* LeftViewController.m */; };
+		18B72306178EA1B500214CF4 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B72303178EA1B500214CF4 /* IIViewDeckController.m */; };
+		18B72307178EA1B500214CF4 /* WrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B72305178EA1B500214CF4 /* WrapController.m */; };
+		18B72309178EA2D800214CF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B72308178EA2D800214CF4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1859BB1A179E743B000E9BE9 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1859BB1B179E743B000E9BE9 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1859BB20179E7802000E9BE9 /* hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello.h; sourceTree = "<group>"; };
+		189803811810E946006ACEF3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		189803821810E946006ACEF3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		18ABFAE8178BEF880006A10D /* juneText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juneText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ABFAEB178BEF880006A10D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18ABFAED178BEF880006A10D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +44,15 @@
 		18ABFAFD178BEF880006A10D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		18ABFAFF178BEF880006A10D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		18ABFB01178BEF880006A10D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18ABFB08178BEFB60006A10D /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		18ABFB09178BEFB60006A10D /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		18B722FE178E9E5700214CF4 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		18B722FF178E9E5700214CF4 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		18B72302178EA1B500214CF4 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		18B72303178EA1B500214CF4 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		18B72304178EA1B500214CF4 /* WrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapController.h; sourceTree = "<group>"; };
+		18B72305178EA1B500214CF4 /* WrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapController.m; sourceTree = "<group>"; };
+		18B72308178EA2D800214CF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B72309178EA2D800214CF4 /* QuartzCore.framework in Frameworks */,
 				18ABFAEC178BEF880006A10D /* UIKit.framework in Frameworks */,
 				18ABFAEE178BEF880006A10D /* Foundation.framework in Frameworks */,
 				18ABFAF0178BEF880006A10D /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +73,7 @@
 		18ABFADF178BEF880006A10D = {
 			isa = PBXGroup;
 			children = (
+				18B72308178EA2D800214CF4 /* QuartzCore.framework */,
 				18ABFAF1178BEF880006A10D /* juneText */,
 				18ABFAEA178BEF880006A10D /* Frameworks */,
 				18ABFAE9178BEF880006A10D /* Products */,
@@ -80,6 +103,16 @@
 			children = (
 				18ABFAFA178BEF880006A10D /* AppDelegate.h */,
 				18ABFAFB178BEF880006A10D /* AppDelegate.m */,
+				18ABFB08178BEFB60006A10D /* mainViewController.h */,
+				18ABFB09178BEFB60006A10D /* mainViewController.m */,
+				18B722FE178E9E5700214CF4 /* LeftViewController.h */,
+				18B722FF178E9E5700214CF4 /* LeftViewController.m */,
+				189803811810E946006ACEF3 /* FirstViewController.h */,
+				189803821810E946006ACEF3 /* FirstViewController.m */,
+				1859BB1A179E743B000E9BE9 /* MBProgressHUD.h */,
+				1859BB1B179E743B000E9BE9 /* MBProgressHUD.m */,
+				1859BB20179E7802000E9BE9 /* hello.h */,
+				18B72301178EA1B500214CF4 /* ViewDeck */,
 				18ABFAF2178BEF880006A10D /* Supporting Files */,
 			);
 			path = juneText;
@@ -97,6 +130,17 @@
 				18ABFB01178BEF880006A10D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B72301178EA1B500214CF4 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				18B72302178EA1B500214CF4 /* IIViewDeckController.h */,
+				18B72303178EA1B500214CF4 /* IIViewDeckController.m */,
+				18B72304178EA1B500214CF4 /* WrapController.h */,
+				18B72305178EA1B500214CF4 /* WrapController.m */,
+			);
+			path = ViewDeck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1859BB1C179E7493000E9BE9 /* MBProgressHUD.m in Sources */,
 				18ABFAF8178BEF880006A10D /* main.m in Sources */,
 				18ABFAFC178BEF880006A10D /* AppDelegate.m in Sources */,
+				18ABFB0A178BEFB60006A10D /* mainViewController.m in Sources */,
+				18B72300178E9E5700214CF4 /* LeftViewController.m in Sources */,
+				18B72306178EA1B500214CF4 /* IIViewDeckController.m in Sources */,
+				18B72307178EA1B500214CF4 /* WrapController.m in Sources */,
+				189803831810E946006ACEF3 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "juneText/juneText-Prefix.pch";
 				INFOPLIST_FILE = "juneText/juneText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -256,6 +307,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "juneText/juneText-Prefix.pch";
 				INFOPLIST_FILE = "juneText/juneText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,6 +332,7 @@
 				18ABFB07178BEF880006A10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

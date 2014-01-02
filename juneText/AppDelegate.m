@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "mainViewController.h"
+#import "LeftViewController.h"
+#import "IIViewDeckController.h"
 @implementation AppDelegate
-
+@synthesize _viewDeckController;
 - (void)dealloc
 {
     [_window release];
@@ -21,6 +23,20 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    mainViewController *main = [[mainViewController alloc]init];
+    UINavigationController *nac = [[UINavigationController alloc]initWithRootViewController:main];
+    
+    LeftViewController *left = [[[LeftViewController alloc] init] autorelease];
+    IIViewDeckController* deckController =  [[IIViewDeckController alloc] initWithCenterViewController:nac
+                                                                                    leftViewController:left];
+    deckController.leftLedge = 120;
+    deckController.panningMode = IIViewDeckFullViewPanning;
+    self._viewDeckController = deckController;
+    self.window.rootViewController = deckController;
+    [nac release];
+    [main release];
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
